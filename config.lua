@@ -122,11 +122,26 @@ Config.models = {
 	[`prop_mp3_dock`] = {
 		label = "MP3 Dock"
 	},
+	[`m24_1_prop_m41_radio_01a`] = {
+		label = "MP3 Dock"
+	},
 	[`v_res_mm_audio`] = {
 		label = "MP3 Dock"
 	},
 	[`sm_prop_smug_radio_01`] = {
 		label = "Radio"
+	},
+	[`prop_tay_guitar_001`] = {
+		label = "Accoustic Guitar Pink",
+		filter = true,
+	},
+	[`prop_tay_guitar_002`] = {
+		label = "Accoustic Guitar Pride",
+		filter = true,
+	},
+	[`prop_acc_guitar_01`] = {
+		label = "Accoustic Guitar",
+		filter = true,
 	},
 	[`prop_acc_guitar_01_d1`] = {
 		label = "Accoustic Guitar",
@@ -168,6 +183,14 @@ Config.models = {
 		label = "Electric Guitar",
 		filter = false,
 	},
+	[`rpemotes_prop_Saxophone01`] = {
+		label = "Saxophone",
+		filter = false,
+	},
+	[`rpemotes_prop_Saxophone02`] = {
+		label = "Saxophone",
+		filter = false,
+	},
 	[`ex_prop_ex_tv_flat_01`] = {
 		label = "TV",
 		renderTarget = "ex_tvscreen"
@@ -200,6 +223,14 @@ Config.models = {
 		label = "Monitor",
 		renderTarget = "tvscreen"
 	},
+	[`m23_2_prop_m32_crt_mon_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_crtscreen_01a"
+	},
+	[`m23_2_prop_m32_desktop_01a`] = {
+		label = "Monitor",
+		renderTarget = "m32_desktop_01a"
+	},
 	[`hei_prop_dlc_tablet`] = {
 		label = "Tablet",
 		renderTarget = "tablet"
@@ -219,6 +250,26 @@ Config.models = {
 	[`prop_tv_03_overlay`] = {
 		label = "TV",
 		renderTarget = "tvscreen"
+	},
+	[`prop_tv_04`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_test`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_05`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_06`] = {
+		label = "TV",
+		renderTarget = "tvscreen"
+	},
+	[`prop_tv_07`] = {
+		label = "TV",
+		renderTarget = "tv_screen_02b"
 	},
 	[`prop_laptop_lester2`] = {
 		label = "Laptop",
@@ -257,8 +308,12 @@ Config.models = {
 		renderTarget = "tvscreen"
 	},
 	[`ba_prop_battle_club_computer_01`] = {
-		label = "Computer",
+		label = "iFruit Computer",
 		renderTarget = "club_computer"
+	},
+	[`ba_prop_battle_club_computer_02`] = {
+		label = "iFruit Computer",
+		renderTarget = "club_computer_02"
 	},
 	[`ba_prop_club_laptop_dj`] = {
 		label = "Laptop",
@@ -268,9 +323,45 @@ Config.models = {
 		label = "Laptop",
 		renderTarget = "laptop_dj_02"
 	},
-	[`sm_prop_smug_monitor_01`] = {
+	[`v_res_lest_monitor`] = {
 		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`tr_prop_tr_monitor_01a`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01a"
+	},
+	[`tr_prop_tr_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "prop_tr_monitor_01b"
+	},
+	[`sm_prop_smug_monitor_01`] = {
+		label = "iFruit Computer",
 		renderTarget = "smug_monitor_01"
+	},
+	[`sf_prop_sf_monitor_stu_01a`] = {
+		label = "Computer",
+		renderTarget = "monitor_stu_01a"
+	},
+	[`prop_monitor_01b`] = {
+		label = "Computer",
+		renderTarget = "tvscreen"
+	},
+	[`sf_prop_sf_monitor_stu_01a`] = {
+		label = "Computer",
+		renderTarget = "monitor_stu_01a"
+	},
+	[`sf_prop_sf_monitor_b_02b`] = {
+		label = "iFruit Computer",
+		renderTarget = "monitor_b_02b"
+	},
+	[`vw_prop_vw_monitor_01`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_ex_computer_screen"
+	},
+	[`m24_1_prop_m41_monitor_01a`] = {
+		label = "iFruit Computer",
+		renderTarget = "prop_m41_monitor_01a"
 	},
 	[`xm_prop_x17_tv_flat_01`] = {
 		label = "TV",
@@ -436,6 +527,14 @@ Config.models = {
 		label = "TV",
 		renderTarget = "gr_trailertv_02"
 	},
+	[`m23_2_prop_m32_hackdevice_01a`] = {
+		label = "Hack Device",
+		renderTarget = "w_am_hackdevice_m32"
+	},
+	[`m23_2_prop_m32_hackdevice_01a`] = {
+		label = "Hack Device",
+		renderTarget = "w_am_hackdevice_m32"
+	},
 	[`hei_prop_dlc_heist_board`] = {
 		label = "Projector",
 		renderTarget = "heist_brd"
@@ -460,12 +559,60 @@ Config.models = {
 		label = "Digiscanner",
 		renderTarget = "digiscanner"
 	},
+	[`prop_phone_taymckenzienz`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
 	[`prop_phone_cs_frank`] = {
-		label = "Phone",
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_phone_proto`] = {
-		label = "Phone",
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_player_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`sf_prop_sf_npc_phone_01a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_amb_phone_01`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`h4_prop_h4_npc_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing_02`] = {
+		label = "phone",
+		renderTarget = "npcphone"
+	},
+	[`ch_prop_ch_phone_ing_02a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`ch_prop_ch_phone_ing_02a`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_phone_ing`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`ba_prop_battle_amb_phone`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`prop_npc_phone_02`] = {
+		label = "Cellphone",
+		renderTarget = "npcphone"
+	},
+	[`p_cs_cam_phone`] = {
+		label = "Cellphone",
 		renderTarget = "npcphone"
 	},
 	[`prop_huge_display_01`] = {
@@ -507,10 +654,6 @@ Config.models = {
 	[`hei_bank_heist_laptop`] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
-	},
-	[`xm_prop_x17dlc_monitor_wall_01a`] = {
-		label = "Screen",
-		renderTarget = "prop_x17dlc_monitor_wall_01a"
 	},
 	[`ch_prop_ch_tv_rt_01a`] = {
 		label = "TV",
@@ -585,6 +728,42 @@ Config.models = {
 		attenuation = {sameRoom = 0.6, diffRoom = 6},
 		range = 150,
 		isVehicle = false
+	}, 
+	
+	---- BzZzi's Add - On Bzoombox Props ---- 
+	--- Purchase here: https://bzzz.tebex.io/package/6252902 ----
+  
+	[`bzzz_bzoombox_a`] = {
+		label = "BzZzi Bzoombox",
+		filter = false,
+	},
+	[`bzzz_bzoombox_b`] = {
+		label = "BzZzi Bzoombox 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_c`] = {
+		label = "BzZz Bzoombox Personal Assistant",
+		filter = false,
+	},
+	[`bzzz_bzoombox_d`] = {
+		label = "BzZz Bzoombox Personal Assistant 2",
+		filter = false,
+	},
+	[`bzzz_bzoombox_e`] = {
+		label = "BzZz Bzoombox 3",
+		filter = false,
+	},
+	[`bzzz_bzoombox_f`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_g`] = {
+		label = "BzZz Bzoombox 4",
+		filter = false,
+	},
+	[`bzzz_bzoombox_h`] = {
+		label = "BzZz Bzoombox Speakers",
+		filter = false,
 	},
 }
 
@@ -904,5 +1083,6 @@ Config.autoDisableVehicleRadio = true
 Config.allowedUrls = {
 	"^https?://w?w?w?%.?youtube.com/.*$",
 	"^https?://w?w?w?%.?youtu.be/.*$",
-	"^https?://w?w?w?%.?twitch.tv/.*$"
+	"^https?://w?w?w?%.?twitch.tv/.*$",
+    "^https?://w?w?w?%.?kick.com/.*$"
 }
